@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.small-word{
+    font-size: small;
+}
+
+.shophere{
+    font-size: small;
+}
+
+.sub-head{
+    font-size: small;
+}
+
+.description{
+    font-size: small;
+}
+
+.shoename{
+    font-size: small;
+}
+
+.gallery-main{
+    font-size: small;
+}
+
+.gallery-sub{
+    font-size: small;
+}
+
+.foot-head{
+    font-size: small;
+}
+
+.foot-link{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+ a {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+    text-decoration: none;
+  }
+  
+  a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
